@@ -14,14 +14,4 @@ export const nav: DefaultTheme.Config['nav'] = [
             },
         ]
     },
-    {
-        text: 'Theme1',
-        link: '/posts/theme/theme',
-        //activeMatch: '/posts/theme'
-    },
-    {
-        text: 'Theme2',
-        link: '/posts/theme2/theme2',
-        //activeMatch: '/posts/theme'
-    },
 ]

@@ -11,23 +11,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             link: '/posts/book/Redis 设计与实现'
         },
     ],
-    '/posts/theme/': [
-        {
-            text: '基础',
-            link: '/guide/'
-        }
-    ],
-    '/posts/theme2/': [
-        {
-            text: 'VuePress配置',
-            items: [
-                {
-                    text: '介绍',
-                    link: '/vuepress-config/'
-                }
-            ]
-        }
-    ]
 }
 
 
