@@ -1,0 +1,10 @@
+.aside-container{
+  position: fixed;
+  top: 0;
+  padding-top: calc(var(--vp-nav-height) + var(--vp-layout-top-height, 0px) + var(--vp-doc-top-height, 0px) + 48px);
+  width: 350px !important;   // 对右边目录的宽度重新设置了一下
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
