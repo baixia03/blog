@@ -4,6 +4,7 @@ import {fileURLToPath, URL} from 'node:url';
 
 // refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
+
     // 基本路径
     base: "/blog/",
     // 输出目录
@@ -12,7 +13,7 @@ export default defineConfig({
     // 语言
     lang: 'zh-CN',
     // 标题
-    title: 'VitePress',
+    title: '白夏',
     // 描述
     description: 'tools',
     // 顶部栏配置
@@ -58,7 +59,7 @@ export default defineConfig({
         // 侧导航栏
         sidebar,
         // 首页logo图
-        logo: '/logo.png',
+        logo: '/logo.jpg',
         // 本地搜索
         search: {
             provider: 'local'
