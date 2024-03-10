@@ -95,7 +95,7 @@ export default defineConfig({
 
         //  页面底部栏
         editLink: {
-            pattern: 'https://github.com/baixia03/blog/tree/main/docs/:path',
+            pattern: 'https://github.com/baixia03/blog/tree/master/docs/:path',
             text: '在 Github 上编辑此页'
         },
 
