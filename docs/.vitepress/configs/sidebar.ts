@@ -3,6 +3,10 @@ import type { DefaultTheme } from 'vitepress'
 export const sidebar: DefaultTheme.Config['sidebar'] = {
     '/posts/book/1': [
         {
+            text: '第 11 章 AOF持久化',
+            link: '/posts/book/1/第 11 章 AOF持久化'
+        },
+        {
             text: '第 18 章 发布与订阅',
             link: '/posts/book/1/第 18 章 发布与订阅'
         },
