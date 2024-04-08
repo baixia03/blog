@@ -1,4 +1,4 @@
-import type { DefaultTheme } from 'vitepress'
+import type {DefaultTheme} from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
     '/posts/book/1': [
@@ -15,6 +15,17 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             link: '/posts/book/1/第 19 章 事务'
         }
     ],
+    '/posts/database/mysql': [
+        {
+            text: 'mysql-基础篇',
+            link: '/posts/database/mysql/MySQL-基础篇'
+        },
+        {
+            text: 'mysql-进阶篇',
+            link: '/posts/database/mysql/MySQL-进阶篇'
+        },
+    ],
+
 }
 // export const sidebar: DefaultTheme.Config['sidebar'] = {
 //     '/posts/book/': [

@@ -18,4 +18,13 @@ export const nav: DefaultTheme.Config['nav'] = [
             },
         ]
     },
+    {
+        text: '数据库',
+        items: [
+            {
+                text: 'MySQL',
+                link: '/posts/database/mysql/MySQL-基础篇.md',
+            }
+        ]
+    }
 ]
