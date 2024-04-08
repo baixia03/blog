@@ -1,6 +1,16 @@
 import type {DefaultTheme} from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
+    '/posts/front': [
+        {
+            text: '前端基础 01',
+            link: '/posts/front/前端基础 01.md'
+        },
+        {
+            text: '前端基础 02',
+            link: '/posts/front/前端基础 02.md'
+        }
+    ],
     '/posts/book/1': [
         {
             text: '第 11 章 AOF持久化',
