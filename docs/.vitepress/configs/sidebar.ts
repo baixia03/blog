@@ -9,6 +9,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         {
             text: '前端基础 02',
             link: '/posts/front/前端基础 02.md'
+        },
+        {
+            text: '前端基础 03',
+            link: '/posts/front/前端基础 03.md'
         }
     ],
     '/posts/book/1': [
