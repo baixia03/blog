@@ -44,6 +44,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             text: '微信小程序 01',
             link: '/posts/wechat/微信小程序 01.md'
         },
+        {
+            text: '微信小程序 02',
+            link: '/posts/wechat/微信小程序 02.md'
+        },
     ],
     '/posts/my': [
         {
