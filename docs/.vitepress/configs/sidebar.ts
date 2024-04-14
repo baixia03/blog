@@ -39,6 +39,26 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             link: '/posts/database/mysql/MySQL-进阶篇'
         },
     ],
+    '/posts/wechat': [
+        {
+            text: '微信小程序 01',
+            link: '/posts/wechat/微信小程序 01.md'
+        },
+    ],
+    '/posts/my': [
+        {
+            text: '导航',
+            link: '/posts/my/导航.md'
+        },
+        {
+            text: '软件',
+            link: '/posts/my/软件.md'
+        },
+        {
+            text: '浏览器插件',
+            link: '/posts/my/浏览器插件.md'
+        }
+    ],
 
 }
 // export const sidebar: DefaultTheme.Config['sidebar'] = {

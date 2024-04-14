@@ -30,5 +30,14 @@ export const nav: DefaultTheme.Config['nav'] = [
                 link: '/posts/database/mysql/MySQL-基础篇.md',
             }
         ]
+    },
+    {
+        text: '微信小程序',
+        link: '/posts/wechat/微信小程序 01.md'
+    },
+    {
+        text: '我的',
+        link: '/posts/my/导航.md'
     }
+
 ]
