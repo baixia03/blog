@@ -1,18 +1,30 @@
 import type {DefaultTheme} from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-    '/posts/front': [
+    '/posts/front/base': [
         {
-            text: '前端基础 01',
-            link: '/posts/front/前端基础 01.md'
+            text: 'JavaScript',
+            collapsed: true,
+            items: [
+                {
+                    text: 'JavaScript 基础 01',
+                    link: '/posts/front/base/JavaScript 基础 01.md'
+                }
+            ]
         },
         {
-            text: '前端基础 02',
-            link: '/posts/front/前端基础 02.md'
-        },
-        {
-            text: '前端基础 03',
-            link: '/posts/front/前端基础 03.md'
+            text: '样式设计',
+            collapsed: true,
+            items: [
+                {
+                    text: '自定义消息提示',
+                    link: '/posts/front/base/自定义消息提示.md'
+                },
+                {
+                    text: '自定义 footer',
+                    link: '/posts/front/base/自定义 footer.md'
+                }
+            ]
         }
     ],
     '/posts/book/1': [
