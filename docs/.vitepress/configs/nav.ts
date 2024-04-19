@@ -2,6 +2,15 @@ import type {DefaultTheme} from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
     {
+        text: '编程语言',
+        items: [
+            {
+                text: 'Java',
+                link: '/posts/language/java/Java 并发性与多线程介绍.md',
+            },
+        ]
+    },
+    {
         text: '前端',
         items: [
             {
@@ -42,7 +51,7 @@ export const nav: DefaultTheme.Config['nav'] = [
     },
     {
         text: '我的',
-        link: '/posts/my/导航.md'
+        link: '/posts/my/常用网址.md'
     }
 
 ]

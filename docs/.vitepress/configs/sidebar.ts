@@ -1,6 +1,50 @@
 import type {DefaultTheme} from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
+    '/posts/language/java': [
+        {
+            text: 'Java 语言',
+            collapsed: true,
+            items: [
+                {
+                    text: 'Java 教程',
+                    link: '/posts/language/java/Java 教程.md'
+                },
+                {
+                    text: 'Java Lambda 表达式',
+                    link: '/posts/language/java/Java Lambda 表达式.md'
+                }
+            ]
+        },
+        {
+            text: 'Java 集合',
+            collapsed: true,
+            items: [
+                {
+                    text: 'Java 集合',
+                    link: '/posts/language/java/Java 集合.md'
+                }
+            ]
+        },
+        {
+            text: 'Java 并发性',
+            collapsed: true,
+            items: [
+                {
+                    text: 'Java 并发性与多线程介绍',
+                    link: '/posts/language/java/Java 并发性与多线程介绍.md'
+                },
+                {
+                    text: '多线程的优点',
+                    link: '/posts/language/java/多线程的优点.md'
+                },
+                {
+                    text: 'Java 并发性与多线程介绍',
+                    link: '/posts/language/java/多线程的代价.md'
+                }
+            ]
+        },
+    ],
     '/posts/front/base': [
         {
             text: 'JavaScript',
@@ -64,18 +108,23 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     '/posts/my': [
         {
             text: '导航',
-            link: '/posts/my/导航.md'
-        },
-        {
-            text: '软件',
-            link: '/posts/my/软件.md'
-        },
-        {
-            text: '浏览器插件',
-            link: '/posts/my/浏览器插件.md'
+            collapsed: true,
+            items: [
+                {
+                    text: '常用网址',
+                    link: '/posts/my/常用网址.md'
+                },
+                {
+                    text: '常用软件',
+                    link: '/posts/my/常用软件.md'
+                },
+                {
+                    text: '浏览器插件',
+                    link: '/posts/my/浏览器插件.md'
+                }
+            ]
         }
     ],
-
 }
 // export const sidebar: DefaultTheme.Config['sidebar'] = {
 //     '/posts/book/': [
@@ -85,13 +134,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
 //         },
 //         {
 //             text: 'Redis 设计与实现',
-//             link: '/posts/book/Redis 设计与实现'
-//         },
-//         {
-//             text: 'Java 并发编程实战',
-//             link: '/posts/book/Java 并发编程实战',
-//         },
-//     ],
+
 // }
 
 
