@@ -44,6 +44,32 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
                 }
             ]
         },
+        {
+            text: 'Java 函数式编程',
+            collapsed: true,
+            items: [
+                {
+                    text: 'Java 函数式编程',
+                    link: '/posts/language/java/Java 函数式编程.md'
+                },
+                {
+                    text: 'Java 高阶函数',
+                    link: '/posts/language/java/Java 高阶函数.md'
+                },
+                {
+                    text: 'Java 函数式接口',
+                    link: '/posts/language/java/Java 函数式接口.md'
+                },
+                {
+                    text: 'Java 函数式组合',
+                    link: '/posts/language/java/Java 函数式组合.md'
+                },
+                {
+                    text: 'Java Stream API',
+                    link: '/posts/language/java/Java Stream API.md'
+                },
+            ]
+        }
     ],
     '/posts/front/base': [
         {
