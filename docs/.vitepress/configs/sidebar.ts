@@ -45,6 +45,20 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             ]
         },
         {
+            text: 'Java 并发工具',
+            collapsed: true,
+            items: [
+                {
+                    text: 'Java 并发工具-java.util.concurrent',
+                    link: '/posts/language/java/Java 并发工具-java.util.concurrent.md'
+                },
+                {
+                    text: 'BlockingQueue',
+                    link: '/posts/language/java/BlockingQueue.md'
+                },
+            ]
+        },
+        {
             text: 'Java 函数式编程',
             collapsed: true,
             items: [
@@ -71,31 +85,35 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             ]
         }
     ],
-    '/posts/front/base': [
+    '/posts/web': [
         {
-            text: 'JavaScript',
+            text: 'CSS',
             collapsed: true,
             items: [
                 {
-                    text: 'JavaScript 基础 01',
-                    link: '/posts/front/base/JavaScript 基础 01.md'
-                }
-            ]
-        },
-        {
-            text: '样式设计',
-            collapsed: true,
-            items: [
-                {
-                    text: '自定义消息提示',
-                    link: '/posts/front/base/自定义消息提示.md'
+                    text: 'CSS 教程',
+                    link: '/posts/web/css/CSS 教程.md'
                 },
                 {
-                    text: '自定义 footer',
-                    link: '/posts/front/base/自定义 footer.md'
-                }
+                    text: '在 HTML 中使用 CSS',
+                    link: '/posts/web/css/在 HTML 中使用 CSS.md'
+                },
             ]
-        }
+        },
+        // {
+        //     text: '样式设计',
+        //     collapsed: true,
+        //     items: [
+        //         {
+        //             text: '自定义消息提示',
+        //             link: '/posts/front/base/自定义消息提示.md'
+        //         },
+        //         {
+        //             text: '自定义 footer',
+        //             link: '/posts/front/base/自定义 footer.md'
+        //         }
+        //     ]
+        // }
     ],
     '/posts/book/1': [
         {

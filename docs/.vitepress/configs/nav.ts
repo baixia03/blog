@@ -11,13 +11,8 @@ export const nav: DefaultTheme.Config['nav'] = [
         ]
     },
     {
-        text: '前端',
-        items: [
-            {
-                text: '基础',
-                link: '/posts/front/base/JavaScript 基础 01',
-            },
-        ]
+        text: 'Web',
+        link: '/posts/web/css/CSS 教程',
     },
     {
         text: '读书笔记',
